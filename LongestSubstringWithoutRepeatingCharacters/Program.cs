@@ -20,23 +20,11 @@ public class Solution
         {
             if (chars.Contains(s[i]))
             {
-                char[] newChars = new char[chars.Length - 1];
-                chars = chars.Skip(1).ToArray();
-                if (!chars.Contains(s[i]))
-                {
-                    Array.Resize(ref chars, chars.Length + 1);
-                    chars[chars.Length - 1] = s[i];
-                }
-                else
-                {
-                    int index = Array.IndexOf(chars, s[i]);
-                    chars = chars.Skip(index+1).ToArray();
+                int index = Array.IndexOf(chars, s[i]);
+                chars = chars.Skip(index + 1).ToArray();
 
-                    Array.Resize(ref chars, chars.Length + 1);
-                    chars[chars.Length - 1] = s[i];
-
-                }
-
+                Array.Resize(ref chars, chars.Length + 1);
+                chars[chars.Length - 1] = s[i];
             }
             else
             {
