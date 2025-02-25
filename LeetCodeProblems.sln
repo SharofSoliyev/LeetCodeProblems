@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeProblems", "LeetCodeProblems\LeetCodeProblems.csproj", "{D25C5128-C0CB-498C-B115-7DFBB7428B77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Easy", "Easy", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{8B706377-9AD6-47BF-A13C-0BA44AA15E79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{D25C5128-C0CB-498C-B115-7DFBB7428B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D25C5128-C0CB-498C-B115-7DFBB7428B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D25C5128-C0CB-498C-B115-7DFBB7428B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B706377-9AD6-47BF-A13C-0BA44AA15E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B706377-9AD6-47BF-A13C-0BA44AA15E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B706377-9AD6-47BF-A13C-0BA44AA15E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B706377-9AD6-47BF-A13C-0BA44AA15E79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B706377-9AD6-47BF-A13C-0BA44AA15E79} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32C5F9D6-33EF-43AF-8268-8745F343E56E}
